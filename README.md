@@ -1,4 +1,4 @@
-# Microservice to generate faker data
+# Microservice to generate fake data
 
 ## Usage
 
