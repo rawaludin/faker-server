@@ -1,0 +1,14 @@
+{
+  "name": "faker-server",
+  "version": "1.0.0",
+  "description": "Faker server microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Rahmat Awaludin <rahmat.awaludin@gmail.com>",
+  "dependencies": {
+    "express": "^4.16.3",
+    "faker": "^4.1.0"
+  }
+}
