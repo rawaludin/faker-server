@@ -8,12 +8,12 @@ app.get('/', function (req, res) {
   let property = req.query.property
   if (property == null) {
     let result = faker.name.findName()
-    res.send(result)
+    res.json(result)
   } else {
     var attribute = property.split('.')[0];
     var method = property.split('.')[1];
     let result = faker[attribute][method]()
-    res.send(result)
+    res.json(result)
   }
 
 })
